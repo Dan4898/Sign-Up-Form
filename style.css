@@ -52,7 +52,7 @@ body {
 .img-author {
   position: absolute;
   bottom: 20px;
-  left: 200px;
+  left: 100px;
 }
 
 .author-ref {
@@ -134,4 +134,15 @@ button {
 
 button:hover {
   transform: scale(1.1);
+}
+
+/*Footer style*/
+.footer {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #596d48ff;
 }
