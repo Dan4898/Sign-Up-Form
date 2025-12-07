@@ -116,3 +116,22 @@ input {
 label {
   font-size: 20px;
 }
+
+/*Styling button*/
+
+button {
+  background-color: #596d48ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
